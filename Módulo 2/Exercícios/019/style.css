@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: darkgreen;
+}
+h1:hover {
+    background-color: bisque;
+}
+#principal {
+    text-align: center;
+    background-color: rgb(150, 152, 142);
+    color: white;
+}
+
+p {
+    font-style: italic;
+}
+
+h2 {
+    color: brown;
+}
+
+.basico {
+    color: rgb(98, 198, 98);
+}
+
+.intermediario {
+    color: rgb(230, 171, 94);
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque:hover {
+    font-style: italic;
+}

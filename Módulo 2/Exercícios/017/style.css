@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    font: 16px Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(139, 141, 143);
+        }
+
+        header {
+            background-color: rgba(241, 241, 252, 0.5);
+            margin: auto;
+            padding: 1px 5px 5px 5px;
+            height: 130px;
+            border-radius: 10px;
+        }
+        
+        nav {
+            background-color: crimson;
+            padding: 3px;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        nav:hover {
+            box-shadow: 3px 2px  2px 1px rgba(0, 0, 0, 0.362);
+        }
+        nav > a:hover {
+            font-weight: bold;
+            font-style: italic;
+            font-size: large;
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: rgba(224, 245, 190, 0.747);
+            margin: auto;
+            padding: 10px;
+            text-align: justify;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: azure;
+            padding: 5px;
+            box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.323);
+        }
+        article > aside {
+            text-align: right;
+            font-style: italic;
+        }
+        article > aside:hover {
+            font-weight: bold;
+            font-style: italic;
+            font-size: large;
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+        </nav>
+    </header>
+   
+    <br>
+
+    <main>
+        <section>
+            <h2>Blá blá blá</h2>
+            <article>
+                <h3>Assuntos</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tempora quas, facere nesciunt magni consectetur non quo quis in consequatur architecto doloribus minima veritatis unde sapiente tenetur animi. Et, neque.
+                </p>
+                <aside>
+                    <a href="#">Quer saber mais?</a>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>
+            Vozes da minha cabeça
+        </p>
+    </footer>
+</body>
+</html>
